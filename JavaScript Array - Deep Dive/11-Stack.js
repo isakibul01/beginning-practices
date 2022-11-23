@@ -1,6 +1,5 @@
-//Stack is a data structure which is built-in in JavaScript array.
+/*Stack is a data structure which is built-in in JavaScript array.
 
-/*
 Stack has two principle operation:
 -Push: It adds element to the collection.
 -Pop: It removes the most recently added element that was not remove yet.
@@ -52,3 +51,5 @@ class Stack {
         return this.top < 0;
     }
 }
+
+module.exports = Stack;
